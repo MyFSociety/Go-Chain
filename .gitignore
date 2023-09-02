@@ -1,0 +1,27 @@
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Folders
+_obj
+_test
+
+# Architecture-specific extensions/prefixes
+*.[568vq]
+
+# Test binary, build with 'go test -c'
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+*.bson
+*.lock
+*.data
+*.wt 
+*.turtle
+*Log*
+WiredTiger*
+
+# Dependency directories (vendoring)
+vendor/
